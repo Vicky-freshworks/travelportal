@@ -2,8 +2,8 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
+    <!-- <script src="https://wchat.myfreshworks.com/js/widget.js"></script> -->
     <script src='//cdn.freshmarketer.in/30001641/1208.js'></script>
-    <script src='//cdn.freshmarketer.com/220708/765180.js'></script>
     <title>Sign Up V2</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -18,10 +18,21 @@
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
+    <!-- fsales js snippe-->
+    <script> function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;
+      t.src='https://ind-assets.freshsales.io/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('https://zarget-50172.myfreshworks.com/crm/sales','52f5e932e5883e634a9f7008a87b52d13931a6f6c351f8af41db61267cb8aba7',false);}})();</script>
 
-<!-- fsales code -->
-<script> function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;
-  t.src='https://ind-assets.freshsales.io/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('https://zarget-50172.myfreshworks.com/crm/sales','52f5e932e5883e634a9f7008a87b52d13931a6f6c351f8af41db61267cb8aba7',true);}})();</script>
+    <!-- fchat js snippet-->
+    <script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "198fe5e3-2d38-443c-a76a-1b636701e1ea",
+      host: "https://wchat.myfreshworks.com"
+    });
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.myfreshworks.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
+  function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
 
   </head>
   <body>
@@ -29,7 +40,7 @@
     <script>
   window.fcWidget.init({
     token: "e314b701-b527-402e-89c8-5c34042c0db9",
-    host: "https://wchat.freshchat.com"
+    host: "https://wchat.myfreshworks.com"
   });
 </script>
     <div class="page text-center">
@@ -139,10 +150,10 @@
                       <li><a href="blog-single-post-sidebar-left.html">Blog Single Post Sidebar</a></li>
                     </ul>
                   </li>
-                  <li><a href="contacts.html">Contacts</a>
+                  <li><a href="contactus.html">Contacts</a>
                     <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="contacts.html">Contacts</a></li>
+                      <li><a href="contactus.html">Contact Us</a></li>
                       <li><a href="contacts-variant-2.html">Contacts v2</a></li>
                     </ul>
                   </li>
@@ -289,7 +300,7 @@
                   <p class="text-extra-small"><a class="text-gray" href="terms-of-use.html">Terms of Use</a></p>
                 </li>
                 <li>
-                  <p class="text-extra-small"><a class="text-gray" href="contacts.html">Contact Support</a></p>
+                  <p class="text-extra-small"><a class="text-gray" href="contactus.html">Contact Us</a></p>
                 </li>
               </ul>
             </div>

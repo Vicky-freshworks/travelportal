@@ -2,9 +2,9 @@
 <html class="wide wow-animation" lang="en">
   <head>
     <!-- Site Title-->
-    <title>Contact Us</title>
+    <title>Contacts</title>
+    <!--  <script src="https://wchat.myfreshworks.com/js/widget.js"></script> -->
     <script src='//cdn.freshmarketer.in/30001641/1208.js'></script>
-    <script src='//cdn.freshmarketer.com/220708/765180.js'></script>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,20 +18,52 @@
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <script src="js/html5shiv.min.js"></script>
 		<![endif]-->
+    <!-- fsales js snippe-->
+    <script> function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;
+      t.src='https://ind-assets.freshsales.io/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('https://zarget-50172.myfreshworks.com/crm/sales','52f5e932e5883e634a9f7008a87b52d13931a6f6c351f8af41db61267cb8aba7',false);}})();</script>
 
-<!-- fsales code -->
-<script> function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;
-  t.src='https://ind-assets.freshsales.io/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init('https://zarget-50172.myfreshworks.com/crm/sales','52f5e932e5883e634a9f7008a87b52d13931a6f6c351f8af41db61267cb8aba7',true);}})();</script>
+    <!-- fchat js snippet-->
+    <script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "198fe5e3-2d38-443c-a76a-1b636701e1ea",
+      host: "https://wchat.myfreshworks.com"
+    });
+
+  }
+  function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.myfreshworks.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}
+  function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+</script>
+<style>
+.tq-message {
+  margin: 0 auto;
+    padding: 100px 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #ffa936;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s ease;
+  text-align: center;
+}
+.showMessage{
+opacity: 1;
+visibility: visible;
+transition: .5s ease;
+
+}
+</style>
 
   </head>
   <body>
     <!-- Page-->
-    <script>
-  window.fcWidget.init({
-    token: "e314b701-b527-402e-89c8-5c34042c0db9",
-    host: "https://wchat.freshchat.com"
-  });
-</script>
+
     <div class="page text-center">
       <!-- Page Header-->
       <header class="page-header">
@@ -51,101 +83,17 @@
               <div class="rd-navbar-nav-wrap">
                 <!-- RD Navbar Nav-->
                 <ul class="rd-navbar-nav">
-                  <li><a href="index.html">Home</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="index-variant-2.html">Tickets</a></li>
-                      <li><a href="index-variant-3.html">Custom Itineraries</a></li>
-                    </ul>
-                  </li>
                   <li><a href="tours-grid.html">Tours</a>
-                    <!-- RD Navbar Dropdown-->
                     <ul class="rd-navbar-dropdown">
-                      <li><a href="tours-grid.html">Africa</a></li>
-                      <li><a href="tours-grid-variant-2.html">Eurasia</a></li>
                       <li><a href="tours-list.html">America</a></li>
                       <li><a href="tours-single.html">Australia</a></li>
                     </ul>
                   </li>
-                  <li><a href="about.html">About</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="our-team.html">Our Team</a></li>
-                      <li><a href="careers.html">Careers</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
-                      <li><a href="testimonials.html">Testimonials</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Pages</a>
-                    <!-- RD Navbar Megamenu-->
-                    <div class="rd-navbar-megamenu">
-                      <div class="row">
-                        <div class="col-lg-4">
-                          <p class="rd-megamenu-header text-big text-black text-ubold">Pages 1</p>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="press.html">Press</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="destinations.html">Destinations</a></li>
-                            <li><a href="signup.html">Sign Up</a></li>
-                            <li><a href="signup-variant-2.html">Sign Up v2</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-4">
-                          <p class="rd-megamenu-header text-big text-black text-ubold">Pages 2</p>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="login.html">Login</a></li>
-                            <li><a href="forgot-password.html">Forgot Password</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms-of-use.html">Terms Of Use</a></li>
-                            <li><a href="sitemap.html">Sitemap</a></li>
-                            <li><a href="search-results.html">Search Results</a></li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-4">
-                          <p class="rd-megamenu-header text-big text-black text-ubold">Pages 3</p>
-                          <ul class="rd-megamenu-list">
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="503.html">503</a></li>
-                            <li><a href="comingsoon.html">Coming Soon</a></li>
-                            <li><a href="maintenance.html">Maintenance</a></li>
-                            <li><a href="underconstruction.html">Under Construction</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                  <li><a href="gallery-cobbles.html">Gallery</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="gallery-cobbles.html">African Destinations</a></li>
-                      <li><a href="gallery-fullwidth.html">Eurasian Destinations</a></li>
-                      <li><a href="gallery-grid.html">American Destinations</a></li>
-                      <li><a href="gallery-masonry.html">Australian Destinations</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="blog-grid.html">Blog</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="blog-grid.html">Blog Grid</a></li>
-                      <li><a href="blog-grid-sidebar-left.html">Blog Grid Sidebar</a></li>
-                      <li><a href="blog-list.html">Blog List</a></li>
-                      <li><a href="blog-list-sidebar-left.html">Blog List Sidebar</a></li>
-                      <li><a href="blog-list-variant-2.html">Blog List v2</a></li>
-                      <li><a href="blog-list-variant-2-sidebar-left.html">Blog List v2 Sidebar</a></li>
-                      <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                      <li><a href="blog-modern.html">Blog Modern</a></li>
-                      <li><a href="blog-single-post.html">Blog Single Post</a></li>
-                      <li><a href="blog-single-post-sidebar-left.html">Blog Single Post Sidebar</a></li>
-                    </ul>
-                  </li>
-                  <li class="active"><a href="https://staycation.freshdesk.com/support/home">Support</a>
-                    <!-- RD Navbar Dropdown-->
-                    <ul class="rd-navbar-dropdown">
-                      <li><a href="https://staycation.freshdesk.com/support/home">Support</a></li>
-                      <li><a href="contacts-variant-2.html">Contacts v2</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="gallery-cobbles.html">Gallery</a></li>
+                  <li><a href="signup.html">Signup</a></li>
+                  <li><a href="blog-grid.html">Blog</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
                 </ul>
               </div>
             </div>
@@ -163,68 +111,78 @@
         </div>
       </section>
 
-      <!-- Contact Us-->
-      <section class="section-80">
+      <!-- Contact Us V2-->
+      <section class="section-80 bg-wild-wand">
         <div class="container">
-          <div class="row row-50 justify-content-sm-center justify-content-lg-between text-md-left">
-            <div class="col-md-10 col-lg-4">
-              <h5 class="text-ubold">Contact Our Agency</h5>
-              <p class="text-offset-2 text-small text-left">
-                At Staycation we want to make sure that your trip is everything
-                you could possibly dream of. Whether you want inspiration
-                and guidance in planning your next adventure or need help
-                with an existing booking, our travel experts are here to help.
-                Send us an email or give our team a call to book your flights,
-                plan your adventure or get help with any problems you
-                encounter along the way. Or if you're nearby, you can
-                visit us in store to speak face to face. Our assistance doesn't
-                end when you take off either; our team
-                are on hand to assist with any issues you may have.
-                
-              </p>
-            </div>
-            <div class="col-md-10 col-lg-4 col-xl-3">
-              <h5 class="text-ubold">Our Contacts</h5>
-              <!-- Contact Info-->
-              <address class="contact-info text-left">
-                <p class="d-block text-small contact-info-address"><a class="text-gray" href="#"><span class="unit flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-01-16x21.png" width="16" height="21" alt=""></span><span class="unit-body"><span>732/21 Second Street, Manchester, King Street, Kingston United Kingdom</span></span></span></a></p>
-                <p class="d-block text-small"><a class="text-gray" href="callto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-02-19x19.png" width="19" height="19" alt=""></span><span class="unit-body"><span>345-677-554</span></span></span></a></p>
-                <p class="d-block text-small"><a class="text-gray" href="callto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-03-12x20.png" width="12" height="20" alt=""></span><span class="unit-body"><span>323-678-567</span></span></span></a></p>
-                <p class="d-block text-small"><a class="text-gray" href="mailto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-04-20x13.png" width="20" height="13" alt=""></span><span class="unit-body"><span>support@staycation.freshdesk.com</span></span></span></a></p>
-                <p class="d-block text-small"><a class="text-gray" href="#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-05-19x19.png" width="19" height="19" alt=""></span><span class="unit-body"><span>staycation.co.in</span></span></span></a></p>
-              </address>
-            </div>
-            <div class="col-md-10 col-lg-4 col-xl-3">
-              <h5 class="text-ubold">Any Questions?</h5>
-              <!-- RD Mailform-->
-              <form class="rd-mailform text-left" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
-                <div class="form-wrap form-wrap-xs">
-                  <label class="form-label" for="questions-contact-name">Your Name</label>
-                  <input class="form-input" id="questions-contact-name" type="text" name="name" data-constraints="@Required">
+          <div class="box box-insets-off bg-default d-xl-block">
+            <div class="row row-offset-custom justify-content-sm-center justify-content-lg-between text-md-left">
+              <div class="col-md-8 order-md-1">
+                <div class="box-inner">
+                  <h5 class="text-ubold">Contact Our Agency</h5>
+                  <p class="text-offset-2 text-small text-left">
+                    You can contact us any way that is convenient for you. We are available 24/7 via fax, email or telephone.
+                    You can also use a quick contact form on the right or visit our office personally.  Email us with any
+                    questions or inquiries or use our contact data. We would be happy to answer your questions.
+
+                  </p>
+                  <div class="row row-30 justify-content-sm-center">
+                    <div class="col-md-6">
+                      <h5 class="text-ubold">Our Contacts</h5>
+                      <!-- Contact Info-->
+                      <address class="contact-info text-left">
+                        <p class="d-block text-small contact-info-address"><a class="text-gray" href="#"><span class="unit flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-01-16x21.png" width="16" height="21" alt=""></span><span class="unit-body"><span>732/21 Second Street, Manchester, King Street, Kingston United Kingdom</span></span></span></a></p>
+                        <p class="d-block text-small"><a class="text-gray" href="callto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-02-19x19.png" width="19" height="19" alt=""></span><span class="unit-body"><span>345-677-554</span></span></span></a></p>
+                        <p class="d-block text-small"><a class="text-gray" href="callto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-03-12x20.png" width="12" height="20" alt=""></span><span class="unit-body"><span>323-678-567</span></span></span></a></p>
+                        <p class="d-block text-small"><a class="text-gray" href="mailto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-04-20x13.png" width="20" height="13" alt=""></span><span class="unit-body"><span>info@demolink.org</span></span></span></a></p>
+                        <p class="d-block text-small"><a class="text-gray" href="#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-05-19x19.png" width="19" height="19" alt=""></span><span class="unit-body"><span>demolink.org</span></span></span></a></p>
+                      </address>
+                    </div>
+                    <div class="col-md-6">
+                      <div>
+                      <h5 class="text-ubold" style="padding-bottom:20px;">Any Questions?</h5>
+                      <!-- RD Mailform-->
+                      <form class="rd-mailform2 text-left" >
+                        <div class="form-wrap form-wrap-xs">
+                          <label class="form-label" for="questions-contact-name">Your Name</label>
+                          <input class="form-input text-regular" id="questions-contact-name" type="text" name="name" data-constraints="@Required">
+                        </div>
+                        <div class="form-wrap form-wrap-xs">
+                          <label class="form-label" for="questions-contact-email">Email</label>
+                          <input class="form-input text-regular" id="questions-contact-email" type="email" name="email" data-constraints="@Email @Required">
+                        </div>
+                        <div class="form-wrap form-wrap-xs">
+                          <label class="form-label" for="questions-contact-message">Message</label>
+                          <textarea class="form-input text-regular" id="questions-contact-message" name="message" data-constraints="@Required" style="height:120px;"></textarea>
+                        </div>
+                        <div class="form-group" style="display:none">
+                          <input type="text" class="form-control" placeholder="Your Email" name="sessionrecording" id="sessionrecording">
+                        </div>
+                        <div class="form-button text-center text-md-left">
+                          <button class="button button-width-110 button-primary" id="contactform">SEND MESSAGE</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="tq-message" >
+                      <p class="text-ubold" style="font-size: 24px;line-height: 33px;padding-bottom: 10px;">Thanks for writing us</p>
+                      <p class="text-center">Someone from our team will be touch with you shortly.</p>
+                    </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-wrap form-wrap-xs">
-                  <label class="form-label" for="questions-contact-email">Email</label>
-                  <input class="form-input" id="questions-contact-email" type="email" name="email" data-constraints="@Email @Required">
+              </div>
+              <div class="col-md-4 section-map-fullheight inset-xl-right-20">
+                <!-- RD Google Map-->
+                <div class="rd-google-map rd-google-map__model" data-zoom="14" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;featureType&quot;:&quot;administrative.country&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;hue&quot;:&quot;#ff0000&quot;}]}]">
+                  <ul class="map_locations">
+                    <li data-y="40.643180" data-x="-73.9874068">
+                      <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
+                    </li>
+                  </ul>
                 </div>
-                <div class="form-wrap form-wrap-xs">
-                  <label class="form-label" for="questions-contact-message">Message</label>
-                  <textarea class="form-input" id="questions-contact-message" name="message" data-constraints="@Required" style="height:120px;"></textarea>
-                </div>
-                <div class="form-button text-center text-md-left">
-                  <button class="button button-width-110 button-primary" type="submit">SEND MESSAGE</button>
-                </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- RD Google Map-->
-      <section class="rd-google-map rd-google-map__model" data-zoom="14" data-x="-73.9874068" data-y="40.643180" data-styles="[{&quot;featureType&quot;:&quot;administrative.country&quot;,&quot;elementType&quot;:&quot;geometry&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;},{&quot;hue&quot;:&quot;#ff0000&quot;}]}]">
-        <ul class="map_locations">
-          <li data-y="40.643180" data-x="-73.9874068">
-            <p>9870 St Vincent Place, Glasgow, DC 45 Fr 45.</p>
-          </li>
-        </ul>
       </section>
       <!-- Page Footer-->
       <footer class="page-footer footer-default section-top-80 section-bottom-34 section-lg-bottom-15 text-md-left">
@@ -267,7 +225,7 @@
                                       <label class="form-label" for="contact-email">Enter Your email here...</label>
                                       <input class="form-input" id="contact-email" type="email" name="email" data-constraints="@Email @Required">
                                     </div>
-                                    <button class="button button-primary button-block" type="submit">SUBSCRIBE</button>
+                                    <button class="button button-primary button-block" type="submit" id="contactform">SUBSCRIBE</button>
                                   </form>
                                   <!-- List Inline-->
                                   <ul class="list-inline list-primary list-inline-13">
@@ -296,9 +254,8 @@
                       </div>
                       <div class="col-md-6">
                         <p class="d-block text-small"><a class="text-gray" href="callto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-03-12x20.png" width="12" height="20" alt=""></span><span class="unit-body"><span>323-678-567</span></span></span></a></p>
-                        <p class="d-block text-small"><a class="text-gray" href="mailto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-04-20x13.png" width="20" height="13" alt=""></span><span class="unit-body"><span>support@staycation.freshdesk.com 
-</span></span></span></a></p>
-                        <p class="d-block text-small"><a class="text-gray" href="#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-05-19x19.png" width="19" height="19" alt=""></span><span class="unit-body"><span>staycation.co.in</span></span></span></a></p>
+                        <p class="d-block text-small"><a class="text-gray" href="mailto:#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-04-20x13.png" width="20" height="13" alt=""></span><span class="unit-body"><span>info@demolink.org</span></span></span></a></p>
+                        <p class="d-block text-small"><a class="text-gray" href="#"><span class="unit align-items-center flex-row unit-spacing-xs"><span class="unit-left"><img class="img-responsive center-block" src="images/icons/icon-05-19x19.png" width="19" height="19" alt=""></span><span class="unit-body"><span>demolink.org</span></span></span></a></p>
                       </div>
                     </div>
                   </address>
@@ -310,7 +267,7 @@
           <div class="row row-0 justify-content-sm-center justify-content-md-between">
             <div class="col-md-5 col-lg-4 text-md-left">
               <p class="text-extra-small">
-                Copyright &#169;<span class="copyright-year"></span><a href="./"> Staycation</a>. All Rights Reserved.</p>
+                Copyright &#169;<span class="copyright-year"></span><a href="./"> SunTravel</a>. All Rights Reserved.</p>
             </div>
             <div class="col-md-5 col-lg-4 text-md-right">
               <!-- List Inline-->
@@ -322,7 +279,7 @@
                   <p class="text-extra-small"><a class="text-gray" href="terms-of-use.html">Terms of Use</a></p>
                 </li>
                 <li>
-                  <p class="text-extra-small"><a class="text-gray" href="contacts.html">Contact Support</a></p>
+                  <p class="text-extra-small"><a class="text-gray" href="contactus.html">Contact Us</a></p>
                 </li>
               </ul>
             </div>
@@ -370,5 +327,79 @@
     <!-- Java script-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    $( document ).ready(function() {
+      $( "#contactform" ).click(function( event ) {
+        debugger
+        var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        var getEmail= $( "#questions-contact-email" ).val();
+        var nameget= $( "#questions-contact-name" ).val();
+        var messages= $("#questions-contact-message" ).val();
+        if(regex.test(getEmail)){
+          var new_contact = {
+                'Last name': nameget,  //Replace with Your Name content
+                'Email': getEmail, //Replace with You Email,
+                'Message': messages,
+                'sessionrecording':$( "#sessionrecording" ).val(), // Session url
+                'fs_contact':true,
+              };
+              var identifier = getEmail; //Replace with You Email
+              freshsales.identify(identifier, new_contact);
+              setTimeout(function(){
+                debugger
+                FM.associateVisitor(getEmail);
+                FM.trackCustomEvent("Contact form click",
+                {
+                "email": getEmail,
+                "agent": "agent1@agent.com",
+                "property": "beverly hills",
+                "country": "USA",
+                "sessionURL":$( "#sessionrecording" ).val()
+                })
+
+// 		 window.fcWidget.user.setLastName(nameget);
+// window.fcWidget.user.setEmail(getEmail);
+// window.fcWidget.user.create();
+                console.log("success");
+              },5000)
+              $('.rd-mailform2').submit();
+              $('.tq-message').addClass('showMessage');
+              return false;
+        }
+        else{
+          console.log("Not success");
+          event.preventDefault();
+        }
+      });
+    });
+
+    function setSessionURL() {
+        var sessionField = document.querySelector("#sessionrecording");
+
+        function callback() {
+          FM.getCurrentSessionURL(function(status, url) {
+                sessionField.value = url;
+                console.log("### Session Recording URL #### ", url);
+          });
+        }
+
+        if(!FM || !FM.getCurrentSessionURL) {
+            window.setTimeout(setSessionURL, 500);
+            return;
+        }
+
+        callback();
+
+    }
+
+
+    if(document.readyState === "completed") {
+        setSessionURL();
+    } else {
+      window.addEventListener("load", function() {
+        setSessionURL();
+      });
+    }
+    </script>
   </body>
 </html>
